@@ -9,7 +9,7 @@ namespace Facturas
     public class Factura : IFactura
     {
         public Cliente Cliente { get; set; }
-        List<DetalleFactura> DetalleDeFactura = new List<DetalleFactura>{ };
+        public List<DetalleFactura> DetalleDeFactura { get; set; }
 
         public Factura(Cliente Cliente, List<DetalleFactura> DetalleDeFactura)
         {

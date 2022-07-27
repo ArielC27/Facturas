@@ -8,7 +8,7 @@ namespace Facturas
 {
     public interface IFactura
     {
-        public int CantidadItems();
-        public double Total();
+        int CantidadItems();
+        double Total();
     }
 }
