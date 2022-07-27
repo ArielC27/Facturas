@@ -9,7 +9,7 @@ namespace Facturas
     public class DetalleFactura 
     {
         public int Cantidad { get; set; }
-        Producto Producto {get; set;}
+        public Producto Producto {get; set;}
         public DetalleFactura(Producto Producto, int Cantidad)
         {
             this.Producto = Producto;
